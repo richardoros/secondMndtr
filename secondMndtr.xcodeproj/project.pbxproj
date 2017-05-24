@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1BA3D56B45A3DEAB446EFE94 /* Pods_secondMndtrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFA402929774CD93A73CC56 /* Pods_secondMndtrUITests.framework */; };
+		2C70C8231ED5D75900D2F3E4 /* mainWallControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70C8221ED5D75900D2F3E4 /* mainWallControllerViewController.swift */; };
 		67BD6A07DD110C9C0510575F /* Pods_secondMndtr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B702DAC682C40FD8FB8E5E /* Pods_secondMndtr.framework */; };
 		91E43F581ED201DD003662D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E43F571ED201DD003662D1 /* AppDelegate.swift */; };
 		91E43F5A1ED201DD003662D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E43F591ED201DD003662D1 /* LoginViewController.swift */; };
@@ -46,6 +47,7 @@
 		20795AC0F3DDE8FEAA99E59F /* Pods-secondMndtrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondMndtrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-secondMndtrTests/Pods-secondMndtrTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2716C8D6A10FEAFD064C61F1 /* Pods-secondMndtrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondMndtrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-secondMndtrUITests/Pods-secondMndtrUITests.release.xcconfig"; sourceTree = "<group>"; };
 		29372D06AC1E1FEB58E9BC47 /* Pods-secondMndtr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondMndtr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-secondMndtr/Pods-secondMndtr.debug.xcconfig"; sourceTree = "<group>"; };
+		2C70C8221ED5D75900D2F3E4 /* mainWallControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainWallControllerViewController.swift; sourceTree = "<group>"; };
 		55B702DAC682C40FD8FB8E5E /* Pods_secondMndtr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_secondMndtr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8706837EE69882410BA1476B /* Pods-secondMndtrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondMndtrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-secondMndtrUITests/Pods-secondMndtrUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		91E43F541ED201DD003662D1 /* secondMndtr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondMndtr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +183,7 @@
 		91E43F8C1ED2067A003662D1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C70C8221ED5D75900D2F3E4 /* mainWallControllerViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				91E43F5A1ED201DD003662D1 /* LoginViewController.swift in Sources */,
 				91E43F901ED2243E003662D1 /* ResetPasswordViewController.swift in Sources */,
 				91E43F581ED201DD003662D1 /* AppDelegate.swift in Sources */,
+				2C70C8231ED5D75900D2F3E4 /* mainWallControllerViewController.swift in Sources */,
 				91E43F8E1ED21FC0003662D1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
