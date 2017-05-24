@@ -1,0 +1,6 @@
+framework module Pods_secondMndtr {
+  umbrella header "Pods-secondMndtr-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_secondMndtrUITests {
+  umbrella header "Pods-secondMndtrUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
