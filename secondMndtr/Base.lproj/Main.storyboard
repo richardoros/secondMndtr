@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DRZ-90-7u9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DRZ-90-7u9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -227,12 +227,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBD-iz-UMC">
                                 <rect key="frame" x="112" y="400" width="153" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Take me to the rooms."/>
                                 <connections>
                                     <segue destination="o7D-Gm-rZu" kind="presentation" id="Jav-aY-nse"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSO-cX-70b">
+                                <rect key="frame" x="104" y="370" width="166" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to add picture  menu"/>
+                                <connections>
+                                    <segue destination="NAR-QP-EJT" kind="presentation" id="cdE-Qc-FaJ"/>
+>>>>>>> origin/Casi-WorkingImagePicker
                                 </connections>
                             </button>
                         </subviews>
@@ -244,6 +253,7 @@
             </objects>
             <point key="canvasLocation" x="959" y="836"/>
         </scene>
+<<<<<<< HEAD
         <!--Items Table View Controller-->
         <scene sceneID="uZG-gT-CE6">
             <objects>
@@ -271,6 +281,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sj4-VF-n6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1709.5" y="1351.5"/>
+=======
+        <!--Main Wall Controller View Controller-->
+        <scene sceneID="Ngb-Ev-wft">
+            <objects>
+                <viewController id="NAR-QP-EJT" customClass="mainWallControllerViewController" customModule="secondMndtr" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2RR-iG-cLY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pb7-RL-loP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v6e-3Q-ppT" customClass="Mainview">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wrc-0w-pEn">
+                                <rect key="frame" x="67" y="55" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8W-pg-LC1">
+                                <rect key="frame" x="16" y="318" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Add Image"/>
+                                <connections>
+                                    <action selector="addImgBtn:" destination="NAR-QP-EJT" eventType="touchUpInside" id="VOn-gN-bdP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFR-09-SwX">
+                                <rect key="frame" x="140" y="449" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to menu"/>
+                                <connections>
+                                    <segue destination="r0e-Dp-qa9" kind="presentation" id="wf3-pM-Lgi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="theImage" destination="wrc-0w-pEn" id="JBi-f4-H0Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mzd-bO-7Ka" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2080.8000000000002" y="857.72113943028489"/>
+>>>>>>> origin/Casi-WorkingImagePicker
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
