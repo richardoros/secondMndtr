@@ -25,6 +25,13 @@ class mainWallControllerViewController: UIViewController, UIImagePickerControlle
     
     @IBOutlet weak var theImage: UIImageView!
     
+    @IBAction func showPopUp(_ sender: Any) {
+        let popVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sbPopUpID") as! PopUpViewController
+        self.addChildViewController(popVC)
+        popVC.view.frame = self.view.frame
+        self.view.addSubview(popVC.view)
+        popVC.didMove(toParentViewController: self)
+    }
     
     @IBAction func addImgBtn(_ sender: Any) {
         
