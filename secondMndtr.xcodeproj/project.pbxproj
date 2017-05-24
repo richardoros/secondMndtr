@@ -10,8 +10,6 @@
 		1BA3D56B45A3DEAB446EFE94 /* Pods_secondMndtrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFA402929774CD93A73CC56 /* Pods_secondMndtrUITests.framework */; };
 		2C70C8231ED5D75900D2F3E4 /* mainWallControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70C8221ED5D75900D2F3E4 /* mainWallControllerViewController.swift */; };
 		67BD6A07DD110C9C0510575F /* Pods_secondMndtr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B702DAC682C40FD8FB8E5E /* Pods_secondMndtr.framework */; };
-		917857B51ED5E362008C9E4A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917857B41ED5E362008C9E4A /* Item.swift */; };
-		917857B71ED5E3BE008C9E4A /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917857B61ED5E3BE008C9E4A /* ItemsTableViewController.swift */; };
 		91E43F581ED201DD003662D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E43F571ED201DD003662D1 /* AppDelegate.swift */; };
 		91E43F5A1ED201DD003662D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E43F591ED201DD003662D1 /* LoginViewController.swift */; };
 		91E43F5D1ED201DD003662D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E43F5B1ED201DD003662D1 /* Main.storyboard */; };
@@ -52,8 +50,6 @@
 		2C70C8221ED5D75900D2F3E4 /* mainWallControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainWallControllerViewController.swift; sourceTree = "<group>"; };
 		55B702DAC682C40FD8FB8E5E /* Pods_secondMndtr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_secondMndtr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8706837EE69882410BA1476B /* Pods-secondMndtrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondMndtrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-secondMndtrUITests/Pods-secondMndtrUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		917857B41ED5E362008C9E4A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		917857B61ED5E3BE008C9E4A /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 		91E43F541ED201DD003662D1 /* secondMndtr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondMndtr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E43F571ED201DD003662D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91E43F591ED201DD003662D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -187,12 +183,17 @@
 				91E43F911ED22583003662D1 /* SignUpViewController.swift */,
 				91E43F8F1ED2243E003662D1 /* ResetPasswordViewController.swift */,
 				91E43F8D1ED21FC0003662D1 /* HomeViewController.swift */,
-				917857B41ED5E362008C9E4A /* Item.swift */,
 				91E43F591ED201DD003662D1 /* LoginViewController.swift */,
+<<<<<<< HEAD
+<<<<<<< HEAD
 				917857B61ED5E3BE008C9E4A /* ItemsTableViewController.swift */,
 =======
 				2C70C8221ED5D75900D2F3E4 /* mainWallControllerViewController.swift */,
 >>>>>>> origin/Casi-WorkingImagePicker
+=======
+>>>>>>> parent of 5f0d4ca... TableView
+=======
+>>>>>>> parent of 5f0d4ca... TableView
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -502,10 +503,8 @@
 			files = (
 				91E43F921ED22583003662D1 /* SignUpViewController.swift in Sources */,
 				91E43F601ED201DD003662D1 /* secondMndtr.xcdatamodeld in Sources */,
-				917857B71ED5E3BE008C9E4A /* ItemsTableViewController.swift in Sources */,
 				91E43F5A1ED201DD003662D1 /* LoginViewController.swift in Sources */,
 				91E43F901ED2243E003662D1 /* ResetPasswordViewController.swift in Sources */,
-				917857B51ED5E362008C9E4A /* Item.swift in Sources */,
 				91E43F581ED201DD003662D1 /* AppDelegate.swift in Sources */,
 				2C70C8231ED5D75900D2F3E4 /* mainWallControllerViewController.swift in Sources */,
 				91E43F8E1ED21FC0003662D1 /* HomeViewController.swift in Sources */,
