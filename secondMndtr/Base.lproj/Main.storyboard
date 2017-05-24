@@ -227,6 +227,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBD-iz-UMC">
+                                <rect key="frame" x="112" y="400" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Take me to the rooms."/>
+                                <connections>
+                                    <segue destination="o7D-Gm-rZu" kind="presentation" id="Jav-aY-nse"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.16862018000000001" green="0.64878022790000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -235,6 +243,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5j-Wq-DTJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="959" y="836"/>
+        </scene>
+        <!--Items Table View Controller-->
+        <scene sceneID="uZG-gT-CE6">
+            <objects>
+                <tableViewController storyboardIdentifier="Items" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o7D-Gm-rZu" customClass="ItemsTableViewController" customModule="secondMndtr" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="23" sectionHeaderHeight="28" sectionFooterHeight="28" id="fOU-gU-4To">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="yu7-eb-2qA">
+                                <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yu7-eb-2qA" id="ktd-8A-mAQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="o7D-Gm-rZu" id="lBU-n0-b8y"/>
+                            <outlet property="delegate" destination="o7D-Gm-rZu" id="VCT-38-j4z"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sj4-VF-n6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709.5" y="1351.5"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
