@@ -17,8 +17,9 @@ class HomeViewController: UIViewController {
         if Auth.auth().currentUser != nil {
             do {
                 try Auth.auth().signOut()
-                let vc = UIStoryboard(name: "LoginScreen", bundle: nil).instantiateViewController(withIdentifier: "Home")
-                present(vc, animated: true, completion: nil)
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "Login")
+                self.present(vc!, animated: true, completion: nil)
+
                 
             } catch let error as NSError {
                 print(error.localizedDescription)

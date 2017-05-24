@@ -139,11 +139,7 @@
 				91E43F8B1ED20674003662D1 /* Images */,
 				91E43F8A1ED20658003662D1 /* secondMndtr.entitlements */,
 				91E43F571ED201DD003662D1 /* AppDelegate.swift */,
-				91E43F591ED201DD003662D1 /* LoginViewController.swift */,
-				91E43F8D1ED21FC0003662D1 /* HomeViewController.swift */,
 				91E43F5B1ED201DD003662D1 /* Main.storyboard */,
-				91E43F911ED22583003662D1 /* SignUpViewController.swift */,
-				91E43F8F1ED2243E003662D1 /* ResetPasswordViewController.swift */,
 				91E43F611ED201DD003662D1 /* Assets.xcassets */,
 				91E43F881ED20617003662D1 /* GoogleService-Info.plist */,
 				91E43F631ED201DD003662D1 /* LaunchScreen.storyboard */,
@@ -181,6 +177,10 @@
 		91E43F8C1ED2067A003662D1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				91E43F911ED22583003662D1 /* SignUpViewController.swift */,
+				91E43F8F1ED2243E003662D1 /* ResetPasswordViewController.swift */,
+				91E43F8D1ED21FC0003662D1 /* HomeViewController.swift */,
+				91E43F591ED201DD003662D1 /* LoginViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";

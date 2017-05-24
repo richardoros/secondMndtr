@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--LoginScreen-->
         <scene sceneID="ohl-5H-Tob">
             <objects>
-                <viewController storyboardIdentifier="LoginScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DRZ-90-7u9" customClass="LoginViewController" customModule="secondMndtr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" title="LoginScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DRZ-90-7u9" customClass="LoginViewController" customModule="secondMndtr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1WL-da-2w5"/>
                         <viewControllerLayoutGuide type="bottom" id="Ug6-Dd-1hR"/>
@@ -212,6 +212,7 @@
                                 <state key="normal" title="Logout"/>
                                 <connections>
                                     <action selector="logOutAction:" destination="r0e-Dp-qa9" eventType="touchUpInside" id="9L8-95-hXE"/>
+                                    <segue destination="DRZ-90-7u9" kind="presentation" id="JZt-Hx-0sx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcs-If-Ncl">
@@ -237,7 +238,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="AFi-Sh-XGL"/>
+        <segue reference="JZt-Hx-0sx"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="0.0099468241870000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
